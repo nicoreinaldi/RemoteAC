@@ -10,6 +10,34 @@ package com.remote;
  * @author user
  */
 public class NamaAC {
-    String typeAC;
-    String merkAC;
+
+    /**
+     * @return the typeAC
+     */
+    public String getTypeAC() {
+        return typeAC;
+    }
+
+    /**
+     * @param typeAC the typeAC to set
+     */
+    public void setTypeAC(String typeAC) {
+        this.typeAC = typeAC;
+    }
+
+    /**
+     * @return the merkAC
+     */
+    public String getMerkAC() {
+        return merkAC;
+    }
+
+    /**
+     * @param merkAC the merkAC to set
+     */
+    public void setMerkAC(String merkAC) {
+        this.merkAC = merkAC;
+    }
+    private String typeAC;
+    private String merkAC;
 }
